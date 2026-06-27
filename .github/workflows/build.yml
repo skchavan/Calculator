@@ -30,7 +30,7 @@ jobs:
 
       - name: Run Pylint
         run: |
-          pylint calculator.py calculator_logic.py --fail-under-8.0
+          pylint calculator.py calculator_logic.py --fail-under=8.0
 
       - name: Build Executable
         run: |
